@@ -2,3 +2,5 @@
 ![Kết quả chạy](./sai.png)
 ![Kết quả chạy](./hoanthanh.jpg)
 ![Kết quả chạy](./dung.png)
+![Kết quả chạy](./explorer.jpg)
+![Kết quả chạy](./signout.jpg)
