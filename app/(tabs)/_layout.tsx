@@ -1,11 +1,10 @@
-import { Stack } from "expo-router";
+import { Tabs } from "expo-router";
 
-export default function Layout() {
+export default function TabLayout() {
   return (
-    <Stack
-      screenOptions={{
-        contentStyle: { backgroundColor: "#fff" }
-      }}
-    />
+    <Tabs screenOptions={{ headerShown: false }}>
+      <Tabs.Screen name="explore" options={{ title: "Explorer" }} />
+      <Tabs.Screen name="account" options={{ title: "Account" }} />
+    </Tabs>
   );
 }

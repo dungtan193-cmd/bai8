@@ -1,10 +1,9 @@
 import { StyleSheet, Text, View } from "react-native";
 
-export default function Home() {
+export default function Account() {
   return (
     <View style={styles.container}>
-      <Text>Trang chủ</Text>
-      <Text>Chào mừng bạn</Text>
+      <Text style={styles.text}>Account Screen</Text>
     </View>
   );
 }
@@ -12,8 +11,11 @@ export default function Home() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: "#fff",
     justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "#fff"
+    alignItems: "center"
+  },
+  text: {
+    fontSize: 24
   }
 });
